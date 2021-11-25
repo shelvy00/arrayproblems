@@ -1,12 +1,17 @@
 
 
 const numbers = [-3,8,7,6,5,-4,3,2,1];
+numbers.sort(function(a, b){
+return a - b;
+});
+
+console.log(numbers);
 
 /*numbers.sort(function(a, b){return a-b});
 
 console.log(function(a, b));*/
 
-function sortNumber (arr) {
+/*function sortNumber (arr) {
 	arr.sort(function(a,b) {
 		if (a < b) {
 			return -1
@@ -18,4 +23,4 @@ function sortNumber (arr) {
 	})
 }
 
-console.log(sortNumber(numbers));
+console.log(sortNumber(numbers));*/
