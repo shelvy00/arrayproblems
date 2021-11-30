@@ -1,4 +1,4 @@
-
+//Define a function that takes in an array of elements and joins them together into a string.
 
 let colors = ["Red", "Green", "White", "Black"];
 
