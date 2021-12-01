@@ -1,7 +1,7 @@
 //Write a JavaScript function that takes in two parameters, an array and a number (n), and return the first n elements of that array.
 
 let carArray = ["Chevy", "Audi", "Ford", "Saab", "Jag"];
-let	getCars = function (array,num) {
+let getCars = function (array,num) {
 	if (array === null || num === null) {
 		return "please try again";
 	}
